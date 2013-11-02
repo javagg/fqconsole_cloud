@@ -21,7 +21,7 @@ group :assets do
   gem 'coffee-rails',  '~> 3.2.2'
   gem 'jquery-rails',  '~> 2.0.2'
   gem 'uglifier',      '>= 1.2.6'
-  gem 'therubyracer',  '>= 0.10'
+#  gem 'therubyracer',  '>= 0.10'
   gem 'sass-twitter-bootstrap', '2.0.1'
   gem 'minitest',      '>= 3.5.0'
 end
