@@ -1,0 +1,67 @@
+-# Override the same line by place it underneath.
+-# Watch out the indentation!
+- content_for :javascripts do
+  :javascript
+    // Restart
+    $('#restart-link').popover({
+      content: function() { return $('#restart-popover').html(); }
+    }).click(function() {
+      $('#restart-link').toggleClass('highlight');
+      $('#restart-container').activateForms();
+      return false;
+    });
+
+    $('#restart-container').on('click', '.restart-cancel', function() {
+      $('#restart-link').removeClass('highlight').popover('hide');
+      return false;
+    }).on('submit', 'form', function() {
+      $('#restart-container .btn').hide();
+    });
+
+    // Start
+    $('#start-link').popover({
+      content: function() { return $('#start-popover').html(); }
+    }).click(function() {
+      $('#start-link').toggleClass('highlight');
+      $('#start-container').activateForms();
+      return false;
+    });
+
+    $('#start-container').on('click', '.start-cancel', function() {
+      $('#start-link').removeClass('highlight').popover('hide');
+      return false;
+    }).on('submit', 'form', function() {
+      $('#start-container .btn').hide();
+    });
+
+    // Stop
+    $('#stop-link').popover({
+      content: function() { return $('#stop-popover').html(); }
+    }).click(function() {
+      $('#stop-link').toggleClass('highlight');
+      $('#stop-container').activateForms();
+      return false;
+    });
+
+    $('#stop-container').on('click', '.stop-cancel', function() {
+      $('#stop-link').removeClass('highlight').popover('hide');
+      return false;
+    }).on('submit', 'form', function() {
+      $('#stop-container .btn').hide();
+    });
+
+    // IDE Restart
+    $('#ide-restart-link').popover({
+      content: function() { return $('#ide-restart-popover').html(); }
+    }).click(function() {
+      $('#ide-restart-link').toggleClass('highlight');
+      $('#ide-restart-container').activateForms();
+      return false;
+    });
+
+    $('#ide-restart-container').on('click', '.ide-restart-cancel', function() {
+      $('#ide-restart-link').removeClass('highlight').popover('hide');
+      return false;
+    }).on('submit', 'form', function() {
+      $('#ide-restart-container .btn').hide();
+    });

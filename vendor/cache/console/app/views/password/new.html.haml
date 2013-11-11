@@ -1,0 +1,41 @@
+- content_for :stylesheets do
+  <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+
+%h2.ribbon Reset your password
+
+= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f|
+  = devise_error_messages!
+
+  <div style="margin:0;padding:0;display:inline">
+
+  -#<input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="r6WyUGXlc1misEF8JHZGem5uEue0Pla+GHhvQjKUokE=" type="hidden"></div>
+  <p>If you have forgotten your password please enter your email address or Red Hat login here, and we will send you an email with a link that will create a new, random password for your account.</p>
+
+  <div class="string optional control-group control-group-important" id="web_user_login_input">
+
+  <label class="control-label" for="web_user_login">Login</label><div class="controls"><input autofocus="autofocus" class="input-xlarge" id="web_user_login" name="web_user[login]" value="lu.lee05@gmail.com" type="text"></div></div>
+  <fieldset class="form-actions">
+
+  <input class="btn create" name="commit" value="Reset Password" type="submit">
+  or
+  <a href="/app/login" data-submit-email-address="web_user[rhlogin]">sign in</a>
+  </fieldset>
+
+
+
+
+%h1.ribbon Reset your password
+-#%h2 Forgot your password?
+
+= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f|
+  = devise_error_messages!
+
+  %div
+    = f.label :email
+    %br/
+    = f.email_field :email, :autofocus => true
+
+  %div= f.submit "Send me reset password instructions"
+
+
+-#= render "devise/shared/links"

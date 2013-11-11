@@ -1,0 +1,9 @@
+zh-CN:
+  console:
+    navbar:
+      strategy: "策略"
+      documentation: "文档"
+      enterprise: "企业合作"
+      help: "帮助"
+      store: "策略商店"
+      about: "关于"

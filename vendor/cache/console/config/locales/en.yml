@@ -1,0 +1,9 @@
+zh-CN:
+  console:
+    navbar:
+      strategy: "Strategies"
+      documentation: "Documentation"
+      enterprise: "Enterprise"
+      help: "Help"
+      store: "Store"
+      about: "About"

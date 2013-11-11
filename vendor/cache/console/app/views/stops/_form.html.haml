@@ -1,0 +1,12 @@
+= semantic_form_for @application, :url => application_stop_path(@application), :method => 'put', :html => {:class => 'form'} do |f|
+  %p
+    Depending on the size of your application it may take up to several minutes to restart.
+  %p
+    Confirm stop of application
+    %strong
+      '#{@application.name}'?
+
+  = f.buttons do
+    = link_to 'Cancel', application_path(@application), :class => 'btn stop-cancel'
+    = f.commit_button 'Stop'
+    = f.loading

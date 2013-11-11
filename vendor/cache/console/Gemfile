@@ -1,0 +1,49 @@
+source 'http://ruby.taobao.org'
+
+# Remove Gemfile.lock, then use `bundle install --local` to require gems from rpm packages
+if ENV['CONSOLE_SOURCE']
+  gem 'openshift-origin-console', :require => 'console', :path => ENV['CONSOLE_SOURCE']
+else
+  gem 'openshift-origin-console', :require => 'console'
+end
+
+# Most gems needed are specified by openshift-origin-common and openshift-origin-controller
+# and we just need to specify a few gems they didn't pick up
+gem 'rails'
+gem 'psych'
+
+group :assets do
+  gem 'jquery-rails'
+  gem 'sass-rails'
+  gem 'compass-rails'
+  gem 'coffee-rails'
+  gem 'sass-twitter-bootstrap'
+end
+
+group :development, :test do
+  gem 'simplecov'
+  gem 'minitest'
+end
+
+# Extras gems needed by this gem
+gem 'devise', '2.2.7'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
+
+gem 'omniauth-oauth'
+gem 'omniauth-oauth2'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-github'
+gem 'omniauth-linkedin'
+gem 'omniauth-google-oauth2'
+
+# We should use eventmachine-based webserver
+gem 'thin'
+gem 'rack-proxy', '0.5.8'
+gem 'faye-websocket', '0.4.7'
+
+group :assets do
+  gem 'bootstrap-sass-rails'
+end
+gem 'font-awesome-rails'

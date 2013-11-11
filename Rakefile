@@ -3,5 +3,11 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
+require 'rake'
+require 'rake/tasklib'
+require 'rake/testtask'
 
-Myapp::Application.load_tasks
+OpenshiftConsole::Application.load_tasks
+namespace :console do
+  Console::Engine.load_tasks
+end

@@ -1,19 +1,36 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-gem 'rails', '3.2.13'
-gem 'thin'
+# Fedora 19 splits psych out into its own gem.
+if Gem::Specification.respond_to?(:find_all_by_name) and not Gem::Specification::find_all_by_name('psych').empty?
+  gem 'psych'
+end
 
-gem 'openshift-origin-common'
-gem 'openshift-origin-console'
-
+# Order matters!!!
 gem 'devise', '2.2.7'
-gem 'omniauth-oauth'
-gem 'omniauth-oauth2'
-gem 'omniauth-facebook'
-gem 'omniauth-twitter'
-gem 'omniauth-github'
-gem 'omniauth-linkedin'
-gem 'omniauth-google-oauth2'
+gem 'openshift-origin-console', :require => 'console'
+
+if ENV["FQCONSOLE_SOURCE"]
+  gem 'openshift-freequant-console', :require => 'openshift_freequant_console', :path => ENV["FQCONSOLE_SOURCE"]
+else
+  gem 'openshift-freequant-console', :require => 'openshift_freequant_console'
+end
+
+gem 'rake', '> 0.9.2'
+gem 'pry', :require => 'pry' if ENV['PRY']
+gem 'perftools.rb', :require => 'perftools' if ENV['PERFTOOLS']
+
+# NON-RUNTIME BEGIN
+
+# To simplify the packaging burden for distro maintainers it's important to
+# place all gems not needed at runtime in this section.  It can be removed
+# during package build time to avoid having to ship/support development-only
+# packages.
+group :test do
+  gem 'ci_reporter',   '>= 1.7.0', :require => false
+  gem 'minitest',      '>= 3.5.0', :require => false
+end
+
+# NON-RUNTIME END
 
 group :assets do
   gem 'compass-rails', '~> 1.0.3'
@@ -26,27 +43,19 @@ group :assets do
   gem 'minitest',      '>= 3.5.0'
 end
 
-group :test do
-  gem 'ci_reporter',   '>= 1.7.0', :require => false
-  gem 'minitest',      '>= 3.5.0', :require => false
-end
+gem 'thin'
 
-gem 'rake', '> 0.9.2'
-gem 'pry', :require => 'pry' if ENV['PRY']
-gem 'perftools.rb', :require => 'perftools' if ENV['PERFTOOLS']
-
-gem 'formtastic', '~> 1.2.3'
-gem 'net-http-persistent', '>= 2.7'
-gem 'haml', '>= 3.1.7', '< 4.1'
-gem 'rdiscount', '> 1.6.3'
+gem 'omniauth-oauth'
+gem 'omniauth-oauth2'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-github'
+gem 'omniauth-linkedin'
+gem 'omniauth-google-oauth2'
+gem 'rack-proxy', '0.5.8'
+gem 'faye-websocket', '0.4.7'
 
 group :assets do
   gem 'bootstrap-sass-rails', '3.0.0.2'
   gem 'font-awesome-rails', '3.2.1.3'
 end
-
-gem 'devise', '2.2.7'
-gem 'rack-proxy', '0.5.8'
-gem 'faye-websocket', '0.4.7'
-
-

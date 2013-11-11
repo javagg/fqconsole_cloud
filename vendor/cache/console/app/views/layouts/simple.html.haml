@@ -1,0 +1,12 @@
+!!! 5
+
+- ie_html :class => 'no-js', :lang => 'en' do
+  %head
+    = render "layouts/site/head"
+    = render "layouts/site/stylesheets"
+
+  %body{ :class => "#{controller.controller_name} #{controller.action_name}", :style => "padding-top: 50px" }
+    .container
+      = yield
+
+  = render 'layouts/site/javascripts'
