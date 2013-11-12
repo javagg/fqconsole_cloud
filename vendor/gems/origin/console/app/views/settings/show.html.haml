@@ -1,0 +1,29 @@
+- content_for :page_title, 'Settings'
+
+%h1 Settings
+= flashes
+.row
+  - unless @domains.present?
+    .span12
+      %section.row-content
+        = render :partial => 'add_domain'
+
+  - unless @keys.present?
+    .span12
+      %section.row-content
+        = render :partial => 'add_key', :locals => {:keys => @keys}
+
+  - if @keys.present?
+    .span12
+      %section.row-content
+        = render :partial => 'keys', :locals => {:keys => @keys}
+
+  .span12
+
+    - if @domains.present?
+      %section.row-content
+        = render :partial => 'domains', :locals => {:domains => @domains, :capabilities => @capabilities}
+
+    %section.row-content
+      = render :partial => 'authorizations', :locals => {:authorizations => @authorizations}
+

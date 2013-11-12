@@ -7,12 +7,11 @@ end
 
 # Order matters!!!
 gem 'devise', '2.2.7'
-gem 'openshift-origin-console', :require => 'console'
-
-if ENV["FQCONSOLE_SOURCE"]
-  gem 'openshift-freequant-console', :require => 'openshift_freequant_console', :path => ENV["FQCONSOLE_SOURCE"]
+gem 'openshift-origin-console', :require => 'console', :path => 'vendor/gems/origin/console'
+if ENV["FQ_SERVER_SRC"]
+  gem 'openshift-freequant-console', :require => 'openshift_freequant_console', :path => File.join(ENV["FQ_SERVER_SRC"], 'console')
 else
-  gem 'openshift-freequant-console', :require => 'openshift_freequant_console'
+  gem 'openshift-freequant-console', :require => 'openshift_freequant_console', :path => 'vendor/gems/freequant/console'
 end
 
 gem 'rake', '> 0.9.2'
@@ -56,6 +55,6 @@ gem 'rack-proxy', '0.5.8'
 gem 'faye-websocket', '0.4.7'
 
 group :assets do
-  gem 'bootstrap-sass-rails', '3.0.0.2'
-  gem 'font-awesome-rails', '3.2.1.3'
+  gem 'bootstrap-sass-rails', '3.0.2.1'
+  gem 'font-awesome-rails', '4.0.3.0'
 end

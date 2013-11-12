@@ -1,0 +1,19 @@
+.breadcrumb {
+  color: #404040;
+  font-size: $tinyFontSize;
+  padding: 25px 0 15px;
+  margin: 0;
+  a,
+  a:hover,
+  a:visited {
+    color: #666;
+    white-space: nowrap;
+  }
+  .divider {
+    color: $openshiftBrightRed;
+    padding: 0 5px;
+  }
+  li {
+    display: inline;
+  }
+}

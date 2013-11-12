@@ -1,0 +1,61 @@
+// POPOVERS
+// ----------------------------------
+
+.popover-inner {
+  padding: 0;
+  width: 220px;
+  overflow: hidden;
+  background: $popoverColor;
+  @include border-radius(0);
+  @include box-shadow(0 1px 7px rgba(0,0,0,.2));
+}
+.popover-title {
+  border-bottom: 0;
+  font-size: $h5FontSize;
+  padding: 14px 15px 0;
+  margin-bottom: 0;
+  line-height: 1;
+  background-color: $popoverColor;
+  @include border-radius(0);
+}
+.popover-content {
+  background-color: $popoverColor;
+  @include border-radius(0);
+  @include background-clip(padding-box);
+  padding: 14px 14px 5px;
+  p, ul, ol {
+    font-size: $tinyFontSize;
+    line-height: $baseLineHeight;
+    margin-bottom: $baseLineHeight / 1.5;
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  form {
+    margin: 0;
+  }
+}
+
+.popover {
+  position: absolute;
+  text-transform: none;
+  top: 0;
+  left: 0;
+  z-index: $zindexPopover;
+  display: none;
+  padding: 0;
+  &.top    { margin-top:  -10px; }
+  &.right  { margin-left:  10px; }
+  &.bottom { margin-top:   10px; }
+  &.left   { margin-left: -10px; }
+  &.top .arrow    { @include popoverArrow-top(); }
+  &.right .arrow  { @include popoverArrow-right(); }
+  &.bottom .arrow { @include popoverArrow-bottom(); }
+  &.left .arrow   { @include popoverArrow-left();  }
+  .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+}

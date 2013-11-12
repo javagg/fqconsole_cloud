@@ -1,0 +1,24 @@
+@mixin header_border {
+}
+
+@mixin brand {
+  position: relative;
+  top: 10px;
+}
+
+@mixin brand_hover {
+}
+
+@mixin brand_ie {
+  background: image-url('logo-origin.png') no-repeat 0 50%;
+  height: 55px;
+  width: 133px;
+}
+
+@mixin panel_default_boxshadow {
+  @include box-shadow(0 1px 3px rgba(0, 0, 0, 0.1));
+}
+
+@mixin panel_default_boxshadow_hover {
+  @include box-shadow(0 1px 3px rgba(0,0,0,.35));
+}

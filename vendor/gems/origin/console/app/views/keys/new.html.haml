@@ -1,0 +1,5 @@
+- content_for :title, "Add a public key"
+%h1 Add a public key
+=flashes
+
+= render :partial => 'keys/form', :locals => {:key => @key, :input_class => 'span6', :focus => @key.errors.empty?, :first => @first}
