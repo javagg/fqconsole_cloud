@@ -11,7 +11,7 @@ PATH
 PATH
   remote: vendor/gems/origin/console
   specs:
-    openshift-origin-console (1.17.3)
+    openshift-origin-console (1.17.4)
       formtastic (~> 1.2.3)
       haml (>= 3.1.7, < 4.1)
       net-http-persistent (>= 2.7)
