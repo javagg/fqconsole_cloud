@@ -8,6 +8,7 @@ fi
 ORIGIN_SERVER_SRC=$1
 FQ_SERVER_SRC=$2
 
+rm -rf vendor/gems
 mkdir -p vendor/gems
 
 ORIGIN_CONSOLE=$ORIGIN_SERVER_SRC/console

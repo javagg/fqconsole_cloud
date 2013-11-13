@@ -58,7 +58,7 @@ OpenshiftConsole::Application.configure do
   config.assets.initialize_on_precompile = false
   config.assets.compress = true
   config.assets.js_compressor = :uglifier
-  config.assets.precompile += %w(common.css origin.css console.js modernizr.min.js)
+  config.assets.precompile += %w(common.css origin.css console.js modernizr.min.js freequant_console.js freequant_console.css)
   config.configfile = ENV['CONSOLE_CONFIG_FILE'] || '/etc/openshift/console.conf'
   Console.configure(config.configfile)
 end
