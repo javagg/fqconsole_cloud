@@ -2,743 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091437ef-914c-4e7f-90d7-2b283219dfd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/COPYRIGHT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-BoldItalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-BoldItalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBoldItalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBoldItalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Italic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Italic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-LightItalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-LightItalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Semibold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Semibold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-SemiboldItalic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-SemiboldItalic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/console/arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/cartridge-edge.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/console/console-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/empty.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/empty_cert_key_rsa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/favicon-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/icon-user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/loader-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/logo-origin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-logos-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-logos-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/restart-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/restart16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/restart34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/sprite-vert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/public/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/public/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/coverage/.last_run.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.opensource_exclude" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.opensource_include" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/COPYRIGHT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Bold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-BoldItalic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-BoldItalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBoldItalic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-ExtraBoldItalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Italic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Italic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-LightItalic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-LightItalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Semibold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-Semibold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-SemiboldItalic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/OpenSans-SemiboldItalic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/markers/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_account_state.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_add_domain.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_add_key.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_application.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_application.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_application2.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/_application_type.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/_application_type_notifications.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_applications_filter.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/authentications/_authentication.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/authentications/_authentications.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_authorizations.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridge_types/_cartridge_type.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridge_types/_cartridge_type_notifications.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_custom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/_domain.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_domains.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site/_footer.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_footer.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/_footer.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/ide_restarts/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/starts/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/stops/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/aliases/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/keys/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/restarts/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site/_head.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/_head.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site/_header.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/console/_header.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_help.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_iconfont.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/console/_identity.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/storage/_increase_storage.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_input-prepend-append.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site/_javascripts.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/console/_javascripts.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_keys.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/members/_leave_domain_button.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/members/_leave_domain_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/members/_members_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_name.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_opensans.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_openshift-icon.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_openshift-logos-icon.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_override-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/_persisted.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_responsive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_ribbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_ribbon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/applications/_show_addon2.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/applications/_show_addon3.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/keys/_simple_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site/_stylesheets.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/console/_stylesheets.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/_tile.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_tile.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/shared/_tracking.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/authorizations/_usage.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/account/_user.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/_user.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/account.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/models/account.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/account_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/account_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/active_model_compliance_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/alias.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/aliases_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/aliases_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/rails/app_redirector.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/application.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/models/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/application_associations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/app/controllers/application_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/app/controllers/application_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/application_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/application_type.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/application_types_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/application_types_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/fixtures/applications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/applications_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/applications_controller_sanity_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/applications_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/tasks/assets.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/assets_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/associations/builder/association.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/associations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/async_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/async_aware_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/auth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/auth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/auth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/models/authentications.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/authentications_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/authorization.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/authorization_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/authorizations_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/authorizations_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/initializers/backtrace_silencers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/backtrace_silencers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/barista_config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/base.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/base.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/base.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console/auth/basic.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/associations/builder/belongs_to.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/omniauth/strategies/bitbucket.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/boot.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/boot.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/formtastic/bootstrap_form_builder.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/bootstrap_form_builder_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/broker_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/action_hooks/build" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/building_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/building_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/cache_silence.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/cacheable.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/models/capabilities.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/capabilities.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/capability_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/capability_aware_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/capybara.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/capybara.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/cartridge.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/cartridge_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/cartridge_type.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/cartridge_type_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/cartridge_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/cartridge_types.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/cartridge_types_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/cartridge_types_controller_isolation_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/cartridge_types_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/fixtures/cartridges.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/cartridges.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/cartridges_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/cartridges_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/fixtures/cert.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/cert.crt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/fixtures/cert_key_rsa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/cert_key_rsa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/bin/client.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/common.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console/community_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/community_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/compass.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/config_file.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/configuration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/configuration_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/conf/console.conf.example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/conf/console.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/layouts/console.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/initializers/console.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/console_auth_basic_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/console_auth_remote_user_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/console_base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/helpers/console/console_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/console_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console_index_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/console_index_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/console_security.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/railties/controller_runtime.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/cost_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/cost_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/coverage_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/coverage_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/custom_cart_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/database.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/date_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/date_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/aliases/delete.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/delete.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/building/delete.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/delete.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/scaling/delete.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/action_hooks/deploy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/environments/development.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/environments/development.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/console/auth/devise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/initializers/devise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/devise_base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/domain.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/domain_associations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/domain_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/domain_session_sweeper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/domain_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/domains_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/domains_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/devise/registrations/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/password/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/aliases/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/authorizations/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/editing_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/embedded.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/openshift_freequant_console/engine.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/engine.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/environment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/environment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/environment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/console/error.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/errors.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/errors.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/extended_logger.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/initializers/faye-websocket.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/features.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/rails/filter_hash.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/filter_hash_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/first_steps.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/form.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/formtastic.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/assets/stylesheets/freequant.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/assets/javascripts/freequant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/assets/stylesheets/freequant1.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/garbage_collection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/garbage_collection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/gear.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/gear_group.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/get_started.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/associations/builder/has_many.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/associations/builder/has_one.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/console/help.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/help_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/help_link_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/html5_boilerplate_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/icon-user.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/middlewares/ide_proxy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/ide_restarts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/authentications/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/site/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/strategies/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/aliases/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridge_types/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/info.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/info_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/jquery.spin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/jquery.ui.widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/jquery_cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/jquery_placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/jquery_validate_min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/key.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/key_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/keys_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/keys_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/layout_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/members/leave.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/log_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/helpers/log_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/log_subscriber.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/images/logo-origin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/member.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/members_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/members_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/membership.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rest_api/membership_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/initializers/mime_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/mime_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/model_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/helpers/model_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/modernizr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/rcue/navbar-branded.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/console/rcue/navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/devise/registrations/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/devise/sessions/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/password/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/aliases/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/authorizations/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/building/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/keys/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/scaling/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridges/next_steps.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console/auth/none.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/console/not_found.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api/oauth.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/omniauth_callbacks_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/openshift-freequant-console.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-icon.dev.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-logos-icon.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-logos-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/fonts/openshift-logos-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/openshift-origin-console.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/conf/openshift_console.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/openshift_freequant_console.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/opensource.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/stylesheets/origin.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/overrides_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/password_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/persistent_connection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/persistent_http_mock.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/vendor/assets/javascripts/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/action_hooks/post_deploy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/action_hooks/pre_build" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/.openshift/action_hooks/pre_start_ruby" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/environments/production.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/environments/production.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/pry_console.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/omniauth/strategies/qq.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/quickstart.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/fixtures/quickstarts.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/fixtures/quickstarts.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/quickstarts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/quickstarts_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/script/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/script/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/script/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/script/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/active_resource/reflection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console/auth/remote_user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/console/rescue.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/rescue_from_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/devise/orm/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/orm_adapter/adapters/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/support/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/support/rest_api.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/rest_api_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/devise/models/rest_authenticatable.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/devise/strategies/rest_authenticatable.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/models/rest_authenticatable_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/restarts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/restarts_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/role.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/openshift_freequant_console/rails/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/rails/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/rubygem-openshift-freequant-console.spec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/rubygem-openshift-origin-console.spec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/sass.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/scaling_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/scaling_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/search.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/initializers/secret_token.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/secret_token.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/helpers/console/secured_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/bin/server.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/console/server_unavailable.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/initializers/session_store.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/initializers/session_store.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/session_trace.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/settings_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/settings_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/applications/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/ide_restarts/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/starts/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/stops/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/account/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/application_types/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/authorizations/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/building/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridge_types/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/cartridges/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/domains/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/restarts/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/scaling/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/settings/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/storage/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/simple.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/singular_resources.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/singular_resources_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/unit/singular_resources_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/views/layouts/site.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/site_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/helpers/site_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/sshkey_aware.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/sshkey_session_sweeper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/integration/static_pages_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/tasks/stats.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/storage_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/functional/storage_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/app/controllers/strategies_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/rails_app/config/environments/test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/rails_app/config/environments/test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/test_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/test/test_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/test/bin/test_ide_proxy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/tasks/test_suites.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/console/unauthorized.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/assets/javascripts/console/unobtrusive.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update_src.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/upload_key.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/models/user_associations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/app/controllers/user_session_sweeper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/openshift_freequant_console/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/lib/console/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/omniauth/strategies/weibo.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/lib/rack/ws_proxy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/origin/console/config/initializers/x_frame_options.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/gems/freequant/console/config/locales/zh-CN.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/actionmailer-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/actionpack-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activemodel-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activerecord-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activeresource-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activesupport-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/arel-3.0.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/bcrypt-ruby-3.0.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/bigdecimal-1.2.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/bootstrap-sass-rails-3.0.0.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/builder-3.1.4.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/chunky_png-1.2.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/ci_reporter-1.8.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/coffee-rails-3.2.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/coffee-script-2.2.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/coffee-script-source-1.6.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/compass-0.12.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/compass-rails-1.0.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.bundlecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/.generators" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/console.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/COPYRIGHT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/assets/javascripts/freequant.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/assets/stylesheets/freequant.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/assets/stylesheets/freequant1.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/authentications_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/console/auth/devise.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/console_base_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/devise_base_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/editing_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/ide_restarts_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/omniauth_callbacks_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/password_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/site_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/controllers/strategies_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/helpers/console/console_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/helpers/site_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/middlewares/ide_proxy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/models/account.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/models/application.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/models/authentications.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/models/capabilities.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/applications/_show_addon2.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/applications/_show_addon3.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/applications/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/authentications/_authentication.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/authentications/_authentications.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/authentications/index.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/devise/registrations/edit.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/devise/registrations/new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/devise/sessions/new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/ide_restarts/_form.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/ide_restarts/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/application.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/simple.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site/_footer.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site/_head.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site/_header.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site/_javascripts.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/layouts/site/_stylesheets.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/password/edit.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/password/new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/site/index.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/starts/_form.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/starts/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/stops/_form.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/stops/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/app/views/strategies/index.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/initializers/console.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/initializers/devise.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/initializers/faye-websocket.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/locales/zh-CN.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/config/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/devise/models/rest_authenticatable.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/devise/orm/rest_api.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/devise/strategies/rest_authenticatable.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/omniauth/strategies/bitbucket.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/omniauth/strategies/qq.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/omniauth/strategies/weibo.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/openshift_freequant_console.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/openshift_freequant_console/engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/openshift_freequant_console/rails/routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/openshift_freequant_console/version.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/orm_adapter/adapters/rest_api.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/lib/rack/ws_proxy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/openshift-freequant-console.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/rubygem-openshift-freequant-console.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/script/rails" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/bin/client.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/bin/server.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/bin/test_ide_proxy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/coverage_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/fixtures/cartridges.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/fixtures/cert.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/fixtures/cert_key_rsa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/fixtures/quickstarts.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/models/rest_authenticatable_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/app/controllers/application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/conf/console.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/application.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/environments/development.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/environments/production.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/environments/test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/initializers/backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/initializers/inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/initializers/mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/initializers/secret_token.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/initializers/session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/config/locales/en.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/coverage/.last_run.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/public/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/rails_app/script/rails" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/auth.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/base.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/capybara.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/errors.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/garbage_collection.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/support/rest_api.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/console/test/test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/daemons-1.1.9.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/devise-2.2.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/erubis-2.7.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/eventmachine-1.0.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/execjs-1.4.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/faraday-0.8.8.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/faye-websocket-0.4.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/font-awesome-rails-3.2.1.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/formtastic-1.2.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/fssm-0.2.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/haml-3.1.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/hashie-2.0.5.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/hike-1.2.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/httpauth-0.2.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/i18n-0.6.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/journey-1.0.4.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/jquery-rails-2.0.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/json-1.7.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/jwt-0.1.8.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/mail-2.5.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/mime-types-1.19.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/minitest-4.7.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/multi_json-1.7.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/multipart-post-1.2.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/net-http-persistent-2.9.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/oauth-0.4.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/oauth2-0.8.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-1.1.4.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-facebook-1.4.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-github-1.1.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-google-oauth2-0.2.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-linkedin-0.1.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-oauth-1.0.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-oauth2-1.1.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/omniauth-twitter-1.0.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/openshift-origin-console-1.17.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/orm_adapter-0.4.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/polyglot-0.3.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/psych-2.0.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-1.4.5.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-cache-1.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-proxy-0.5.8.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-ssl-1.3.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-test-0.6.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rails-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/railties-3.2.13.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rake-10.0.4.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rdiscount-2.0.7.3.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rdoc-4.0.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/sass-3.2.6.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/sass-rails-3.2.6.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/sass-twitter-bootstrap-2.0.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/sprockets-2.8.2.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/thin-1.5.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/thor-0.17.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/tilt-1.3.7.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/treetop-1.4.12.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/tzinfo-0.3.35.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/uglifier-1.3.0.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/warden-1.2.1.gem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fqconsole_cloud.iml" afterPath="$PROJECT_DIR$/.idea/fqconsole_cloud.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fqconsole_cloud.iws" />
@@ -758,6 +23,8 @@
     <file path="/console_controller.rb" changelist="091437ef-914c-4e7f-90d7-2b283219dfd5" time="1384261283034" ignored="false" />
     <file path="/application_types_controller.rb" changelist="091437ef-914c-4e7f-90d7-2b283219dfd5" time="1384261492895" ignored="false" />
     <file path="/site.html.haml" changelist="091437ef-914c-4e7f-90d7-2b283219dfd5" time="1384261868837" ignored="false" />
+    <file path="$USER_HOME$/fqbroker_cloud/config/application.rb" changelist="091437ef-914c-4e7f-90d7-2b283219dfd5" time="1384308130633" ignored="false" />
+    <file path="/application.rb" changelist="091437ef-914c-4e7f-90d7-2b283219dfd5" time="1384308120762" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -777,24 +44,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/freequant-server/console/app/views/strategy_types/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="171" selection-end="171" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_types_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/openshift_build/origin-server/console/app/controllers/application_types_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="52" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_types_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/freequant-server/console/app/controllers/application_types_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -813,10 +62,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zh-CN.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="zh-CN.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/freequant-server/console/config/locales/zh-CN.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.26184538">
+            <state line="7" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_console_conf.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/gen_console_conf.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="19" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.7381546">
               <folding />
             </state>
           </provider>
@@ -887,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$USER_HOME$/freequant-server/console/app/views/strategy_types/index.html.haml" />
         <option value="$USER_HOME$/freequant-server/console/app/views/strategies/index.html.haml" />
         <option value="$PROJECT_DIR$/vendor/gems/origin/console/app/views/applications/_application2.html.haml" />
@@ -903,6 +169,7 @@
         <option value="$USER_HOME$/freequant-server/console/app/controllers/application_types_controller.rb" />
         <option value="$USER_HOME$/freequant-server/console/app/views/layouts/site.html.haml" />
         <option value="$USER_HOME$/freequant-server/console/config/locales/zh-CN.yml" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -914,8 +181,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="40" />
+    <option name="x" value="73" />
+    <option name="y" value="39" />
     <option name="width" value="1433" />
     <option name="height" value="860" />
   </component>
@@ -989,7 +256,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1258,14 +529,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="40" width="1433" height="860" extended-state="0" />
-    <editor active="false" />
+    <frame x="73" y="39" width="1433" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28031954" sideWeight="0.66570604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28031954" sideWeight="0.66570604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1343,22 +614,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/freequant-server/console/app/views/strategies/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="26" selection-start="2883" selection-end="2979" vertical-scroll-proportion="-8.791667">
-          <folding>
-            <element signature="tag#div#4;tag#section#0;tag#section#0;tag#div#5" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/freequant-server/console/app/controllers/console_base_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="15" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
@@ -1454,7 +709,21 @@
     </entry>
     <entry file="file://$USER_HOME$/freequant-server/console/config/locales/zh-CN.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.26184538">
+        <state line="7" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/gen_console_conf.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="19" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.7381546">
           <folding />
         </state>
       </provider>
