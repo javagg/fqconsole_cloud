@@ -56,5 +56,8 @@ gem 'faye-websocket', '0.4.7'
 
 group :assets do
   gem 'bootstrap-sass-rails', '3.0.2.1'
-  gem 'font-awesome-rails', '4.0.3.0'
 end
+
+
+
+gem 'font-awesome-rails', '4.0.3.0'
