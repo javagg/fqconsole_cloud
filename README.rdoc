@@ -1,7 +1,8 @@
 ===Before push to heroku
 
 ./update_src [ORIGIN_SRC] [FQ_SRC]
-bundle install --loal
+rm Gemfile.lock
+bundle install --local
 
 bundle exec rake assets:clean
 RAILS_ENV=production bundle exec rake assets:precompile

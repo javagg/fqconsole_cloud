@@ -58,6 +58,6 @@ group :assets do
   gem 'bootstrap-sass-rails', '3.0.2.1'
 end
 
-
-
 gem 'font-awesome-rails', '4.0.3.0'
+
+ruby '2.0.0'
