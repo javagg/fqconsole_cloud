@@ -2,8 +2,9 @@ class SiteController < DeviseController
   helper 'site'
   layout 'site'
 
+  include Console::CommunityAware
+
   def index
-    #@account = Account.all
   end
 
   def account

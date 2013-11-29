@@ -11,7 +11,10 @@ Rails.application.routes.draw do
 
   match "/search" => ApplicationController.action(:search), :anchor => false
 
-  match "/ide" => IdeProxy.new, :anchor => false
+  #match "/ide" => SubdomainIdeProxy.new({ subdomain: '/ide/', target: ENV['IDE_URL'] || "http://localhost:3131/" }), :anchor => false
+
+  #match "/ide" => SubdomainIdeProxy.new, :anchor => false
+  match "/ide2" => SubdomainIdeProxy.new, :anchor => false
 
   scope :path => "/app" do
     resources :applications, :singular_resource => true do
@@ -19,7 +22,6 @@ Rails.application.routes.draw do
     end
 
     resources :strategy_types, :only => [:show, :index], :id => id_regex, :singular_resource => true do
-      #get :estimate, on: :member
     end
 
     resources :strategies, :id => id_regex, :singular_resource => true do

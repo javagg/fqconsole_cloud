@@ -8,7 +8,7 @@ secure = ARGV[1] == 'ssl'
 EM.run {
   scheme = secure ? 'wss' : 'ws'
   url    = "#{scheme}://localhost:#{port}/ide/"
-  url    = "#{scheme}://localhost:#{port}/application/525b72766892df3031000042-strategy/editing/"
+  #url    = "#{scheme}://localhost:#{port}/application/525b72766892df3031000042-strategy/editing/"
   socket = Faye::WebSocket::Client.new(url)
 
   puts "Connecting to #{socket.url}"

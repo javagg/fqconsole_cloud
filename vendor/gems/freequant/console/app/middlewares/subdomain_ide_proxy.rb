@@ -1,31 +1,15 @@
 require 'rack/ws_proxy'
 
-class IdeProxy < ::Rack::WsProxy
-  def initialize(opts={})
-    @url_translator = opts.delete(:url_translator)
-    super(opts)
-  end
-
-  def call(env)
-    EditingController.action(:show).call(env)
-    super(env)
-  end
-
-
-  def rewrite_env(env)
-    @url_translator.call(env)
-    super(env)
-  end
-
+class SubdomainIdeProxy < Rack::WsProxy
   def rewrite_env(env)
     request = Rack::Request.new(env)
-    controller = env["action_controller.instance"]
-    app = controller.instance_variable_get(:@application)
-    user = controller.instance_variable_get(:@user)
-    login = user.as.login
-    password = user.as.password
-    remote_url = app.app_url
-    #remote_url = remote_url.end_with?('/') ? remote_url : remote_url + "/"
+    #controller = env["action_controller.instance"]
+    #app = controller.instance_variable_get(:@application)
+    #user = controller.instance_variable_get(:@user)
+    #login = user.as.login
+    #password = user.as.password
+    #remote_url = app.app_url
+    remote_url = "http://localhost:3131"
 
     # request.script_name is from the rails route
     # request.path_info is the part that is parsed by proxied server
@@ -41,10 +25,8 @@ class IdeProxy < ::Rack::WsProxy
     # Finally, we got the right url
     env["HTTP_HOST"] = "#{uri.host}:#{uri.port}"
     env["PATH_INFO"] = request.path_info
-    env["SCRIPT_NAME"] = '/'
+    env["SCRIPT_NAME"] = ''
     env["REQUEST_URI"] =  uri.request_uri
-
-    # FIXME: put user and pass into ENV
     super(env)
   end
 
@@ -61,5 +43,3 @@ class IdeProxy < ::Rack::WsProxy
     end
   end
 end
-
-Faye::WebSocket.load_adapter("thin")

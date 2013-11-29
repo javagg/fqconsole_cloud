@@ -1,13 +1,11 @@
-#\ -s puma
-
 $:.unshift File.expand_path("../../../lib", __FILE__)
 
 require 'rack/ws_proxy'
 
 class IdeProxy < Rack::WsProxy
   def rewrite_env(env)
-    #env["HTTP_HOST"] = "localhost:9292"
-    env["HTTP_HOST"] = "127.0.252.1:3131"
+    env["HTTP_HOST"] = "localhost:9292"
+    #env["HTTP_HOST"] = "127.0.252.1:3131"
     env
   end
 
@@ -17,7 +15,8 @@ class IdeProxy < Rack::WsProxy
     remote_url = "http://127.0.252.1:3131/"
   #
   #  prefix = '/application/525b72766892df3031000042-strategy/editing/'
-    prefix = '/ide/'
+  #  prefix = '/ide/'
+    prefix = '/'
     uri = translate(request.fullpath, "#{prefix}(.*)", "#{remote_url}$1")
   #  uri.port = 3131
     env["HTTP_HOST"] = "#{uri.host}:#{uri.port}"
@@ -25,14 +24,6 @@ class IdeProxy < Rack::WsProxy
     env["REQUEST_URI"] =  uri.request_uri
   #  puts "www:"+ uri.to_s
     env
-  end
-
-  # Rack::Chunked is used by default to handle chunk encoding
-  # For this to work with cloud9, we have to delete this header field.
-  def rewrite_response(triplet)
-    _, headers, _ = triplet
-    headers.delete('Transfer-Encoding')
-    triplet
   end
 
   def translate(path, from, to)

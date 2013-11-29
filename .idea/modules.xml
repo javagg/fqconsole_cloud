@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/fqbroker_cloud/.idea/fqbroker_cloud.iml" filepath="$USER_HOME$/fqbroker_cloud/.idea/fqbroker_cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fqconsole_cloud.iml" filepath="$PROJECT_DIR$/.idea/fqconsole_cloud.iml" />
+      <module fileurl="file://$USER_HOME$/freequant-server/node/.idea/node.iml" filepath="$USER_HOME$/freequant-server/node/.idea/node.iml" />
     </modules>
   </component>
 </project>

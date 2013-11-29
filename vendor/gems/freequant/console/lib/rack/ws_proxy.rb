@@ -1,92 +1,113 @@
 require 'rack'
 require 'rack-proxy'
-require 'faye/websocket' # Hack for version 0.4.7
+require 'faye/websocket'
 
-module Faye
-  class WebSocket
-    def initialize(env, supported_protos = nil, options = {})
-      @env     = env
-      @env     = env
-      @stream  = Stream.new(self)
-      @ping    = options[:ping]
-      @ping_id = 0
+module Rack
+  class SubdomainTranslator
+    def initialize(options={})
+      @subdomain = options[:subdomain]
+      @target = options[:target]
+    end
 
-      @url = WebSocket.determine_url(@env)
-      @ready_state = CONNECTING
-      @buffered_amount = 0
-
-      @parser = WebSocket.parser(@env).new(self, :protocols => supported_protos)
-
-      @send_buffer = []
-      #EventMachine.next_tick { open }
-
-      @callback = @env['async.callback']
-      @callback.call([101, {}, @stream])
-      @stream.write(@parser.handshake_response)
-
-      @ready_state = OPEN if @parser.open?
-
-      if @ping
-        @ping_timer = EventMachine.add_periodic_timer(@ping) do
-          @ping_id += 1
-          ping(@ping_id.to_s)
+    def translate(path, from, to)
+      from_regexp= from.kind_of?(Regexp) ? from : /^#{from.to_s}/
+      url = to.clone
+      if url =~ /\$\d/
+        if m = path.match(from_regexp)
+          m.to_a.each_with_index { |m, i| url.gsub!("$#{i.to_s}", m) }
+          URI(url)
+        else
+          URI.join(url, path)
         end
       end
     end
 
-    # Make it public
-    def open
-      return if @parser and not @parser.open?
-      @ready_state = OPEN
+    def call(env)
+      request = ::Rack::Request.new(env)
+      #@target = 'http://www.sohu.com'
+      uri = translate(request.fullpath, "#{@subdomain}(.*)", "#{@target}$1")
+      env["HTTP_HOST"] = "#{uri.host}:#{uri.port}"
 
-      buffer = @send_buffer || []
-      while message = buffer.shift
-        send(*message)
-      end
-
-      event = Event.new('open')
-      event.init_event('open', false, false)
-      dispatch_event(event)
+      # SCRIPT_NAME, REQUEST_URI, REQUEST_PATH have to be set for this proxy
+      # working with c9 sever.
+      env["PATH_INFO"] = uri.path == "" ? "/" : uri.path
+      env["SCRIPT_NAME"] = ""
+      env["REQUEST_URI"] =  uri.request_uri == "" ? "/" : uri.request_uri
+      env
     end
   end
-end
 
-module Rack
   class WsProxy < ::Rack::Proxy
+    @@debug = false
+
+    def self.debug=(enabled)
+      @@debug = enabled
+    end
+
+    def chunked?(header)
+      return false unless header['Transfer-Encoding']
+      field = header['Transfer-Encoding']
+      #(/(?:\A|[^\-\w])chunked(?![\-\w])/i =~ field) ? true : false
+      (field === 'chunked') ? true : false
+    end
+
+    # Rack::Chunked is used by default to handle chunk encoding
+    # For this to work with cloud9, we have to delete this header field.
+    # Currently, it can't handle chunked
+    def rewrite_response(triplet)
+      _, headers, _ = triplet
+      headers.delete('Transfer-Encoding') if chunked? headers
+      headers.delete('Transfer-Encoding')
+      triplet
+    end
+
     def handle_websocket(env)
-      # Don't open until remote is ready
-      ws = Faye::WebSocket.new(env, ['irc', 'xmpp'], :ping => 5)
+      # Open remote first
       req = Rack::Request.new(rewrite_env(env))
       scheme = req.scheme == "http" ? "ws" : "wss"
       uri = "#{scheme}://#{req.host}:#{req.port}#{req.fullpath}"
+
       ws_remote = Faye::WebSocket::Client.new(uri)
 
+      ws_remote.onerror = lambda do |event|
+        puts "remote error: #{event}" if @@debug
+      end
+
       ws_remote.onopen = lambda do |event|
+        puts "remote open" if @@debug
+        ws = Faye::WebSocket.new(env, :ping => 5)
         ws.onopen = lambda do |event|
+          puts "client open" if @@debug
+        end
+
+        ws.onerror = lambda do |event|
+          puts "client error: #{event}" if @@debug
         end
 
         ws.onmessage = lambda do |event|
+          puts "received from client, and send forward to remote" if @@debug
           ws_remote.send(event.data) if ws_remote
         end
 
         ws.onclose = lambda do |event|
+          puts "client closed, then try to close remote" if @@debug
           ws = nil
           ws_remote.close if ws_remote
         end
 
-        EventMachine.next_tick { ws.open }
-      end
+        ws_remote.onmessage = lambda do |event|
+          puts "received from remote, and send back to client" if @@debug
+          ws.send(event.data) if ws
+        end
 
-      ws_remote.onmessage = lambda do |event|
-        ws.send(event.data) if ws
-      end
+        ws_remote.onclose = lambda do |event|
+          puts "remote closed, then try to close remote" if @@debug
 
-      ws_remote.onclose = lambda do |event|
-        ws_remote = nil
-        ws.close if ws
+          ws_remote = nil
+          ws.close if ws
+        end
       end
-
-      ws.rack_response
+      [ -1, {}, [] ]
     end
 
     def call(env)
@@ -98,3 +119,4 @@ module Rack
     end
   end
 end
+

@@ -6,7 +6,7 @@ if Gem::Specification.respond_to?(:find_all_by_name) and not Gem::Specification:
 end
 
 # Order matters!!!
-gem 'devise', '2.2.7'
+gem 'devise'
 gem 'openshift-origin-console', :require => 'console', :path => 'vendor/gems/origin/console'
 if ENV["FQ_SERVER_SRC"]
   gem 'openshift-freequant-console', :require => 'openshift_freequant_console', :path => File.join(ENV["FQ_SERVER_SRC"], 'console')
@@ -51,13 +51,13 @@ gem 'omniauth-twitter'
 gem 'omniauth-github'
 gem 'omniauth-linkedin'
 gem 'omniauth-google-oauth2'
-gem 'rack-proxy', '0.5.8'
-gem 'faye-websocket', '0.4.7'
+gem 'rack-proxy'
+gem 'faye-websocket'
 
 group :assets do
-  gem 'bootstrap-sass-rails', '3.0.2.1'
+  gem 'bootstrap-sass-rails'
 end
 
-gem 'font-awesome-rails', '4.0.3.0'
+gem 'font-awesome-rails'
 
 ruby '2.0.0'
