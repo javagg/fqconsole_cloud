@@ -10,3 +10,7 @@ RAILS_ENV=production bundle exec rake assets:precompile
 git add .
 
 ......
+
+BROKER_URL="http://broker.freequant.net/broker/rest"
+
+BROKER_URL="http://localhost:4000/broker/rest"

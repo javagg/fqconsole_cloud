@@ -60,15 +60,29 @@ module Console::ModelHelper
           "You have disabled all gear sizes from being created."
         end
       elsif !writeable_domains.find(&:has_available_gears?)
-        "There are not enough free gears available to create a new application. You will either need to scale down or delete existing applications to free up resources."
+        out_of_gears_message
       end
     end
+  end
+
+  def out_of_gears_message
+    "There are not enough free gears available to create a new application. You will either need to scale down or delete existing applications to free up resources."
   end
 
   def new_application_gear_sizes(writeable_domains, user_capabilities)
     gear_sizes = user_capabilities.allowed_gear_sizes
     if writeable_domains.present?
       gear_sizes = writeable_domains.map(&:capabilities).map(&:allowed_gear_sizes).flatten.uniq
+    end
+    gear_sizes
+  end
+
+  def add_cartridge_gear_sizes(application, cartridge_type, capabilities)
+    gear_sizes = [application.gear_profile]
+    if application.scales? && cartridge_type
+      gear_estimate = gear_estimate_for_scaled_app({'1' => [cartridge_type]})
+      increasing = (gear_estimate.begin > 0 || gear_estimate.end > 0)
+      gear_sizes = capabilities.allowed_gear_sizes if increasing
     end
     gear_sizes
   end

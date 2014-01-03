@@ -36,7 +36,7 @@ class IdeProxy < ::Rack::WsProxy
 
     # We also need to set the right port, because the old one is
     # for the app itself, not for its ide.
-    uri.port = ENV["FREEQUANT_IDE_PORT"].to_i || 8200
+    uri.port = ENV["FREEQUANT_IDE_PROXY_PORT"].to_i || 8100
 
     # Finally, we got the right url
     env["HTTP_HOST"] = "#{uri.host}:#{uri.port}"
