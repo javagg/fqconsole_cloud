@@ -1,5 +1,5 @@
 PATH
-  remote: /home/alex/freequant-server/console
+  remote: vendor/gems/freequant/console
   specs:
     openshift-freequant-console (0.0.1)
       devise (= 3.2.2)
