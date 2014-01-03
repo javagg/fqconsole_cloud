@@ -221,11 +221,19 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  config.omniauth :facebook, 'dddd', 'sddd'
-  config.omniauth :twitter, 'ddd', 'sssd'
-  config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
-  config.omniauth :bitbucket, 'APP_ID', 'APP_SECRET'
-  config.omniauth :weibo, '3330953718', 'e0f21fab2b1bb56d3cf676723f9ab11a'
+  oauth_params_string = ENV["OAUTH_PARAMS"]
+  if oauth_params_string
+    params = JSON.parse(oauth_params_string)
+    params.each do |provider, keypair|
+      config.omniauth provider, keypair['app_key'], keypair['secret_key']
+    end
+  end
+  #
+  #config.omniauth :facebook, 'dddd', 'sddd'
+  #config.omniauth :twitter, 'ddd', 'sssd'
+  #config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
+  #config.omniauth :bitbucket, 'APP_ID', 'APP_SECRET'
+  #config.omniauth :weibo, '3330953718', 'e0f21fab2b1bb56d3cf676723f9ab11a'
   #config.omniauth :qq, 'APP_ID', 'APP_SECRET'
 
 
