@@ -3,7 +3,8 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   Devise.omniauth_providers.each do |provider|
     class_eval <<-EOS, __FILE__, __LINE__ + 1
       def #{provider}
-        oauth_for("#{provider}")
+        #oauth_for("#{provider}")
+        puts request.env["omniauth.auth"]
       end
     EOS
   end
@@ -38,9 +39,9 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   def find_or_create_new_omniauth_user(omniauth)
-    email = omniauth[:email]
-    if email
-      account = Account.find(:first, params: { })
+    username = omniauth[:email]
+    if username
+      account = Account.find(:first, params: {})
     else
       account = Account.new
     end

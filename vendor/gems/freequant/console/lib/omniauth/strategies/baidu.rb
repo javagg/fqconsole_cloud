@@ -2,29 +2,26 @@ require "omniauth-oauth2"
 
 module OmniAuth
   module Strategies
-    class Weibo < OmniAuth::Strategies::OAuth2
+    class Baidu < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => "https://api.weibo.com",
-        :authorize_url => "/oauth2/authorize",
-        :token_url => "/oauth2/access_token"
+        :site => "https://openapi.baidu.com",
+        :authorize_url => "/oauth/2.0/authorize",
+        :token_url => "/oauth/2.0/token"
       }
-
       option :token_params, { :parse => :json }
 
-      uid do
-        raw_info['id']
-      end
+      uid do raw_info['userid'] end
 
       info do
         {
-          :nickname => raw_info['screen_name'],
-          :name => raw_info['name'],
-          :location => raw_info['location'],
-          :image => raw_info['profile_image_url'],
-          :description => raw_info['description'],
-          :urls => {
-            'Blog' => raw_info['url'],
-            'Weibo' => raw_info['domain'].present?? "http://weibo.com/#{raw_info['domain']}" : "http://weibo.com/u/#{raw_info['id']}",
+          :nickname => raw_info['realname'],
+          :name => raw_info['username'],
+          :sex => raw_info['sex'],
+          :birthday => raw_info['birthday'],
+          :description => raw_info['userdetail'],
+          :image => {
+            'small' => "http://tb.himg.baidu.com/sys/portraitn/item/#{raw_info['url']}",
+            'large' => "http://tb.himg.baidu.com/sys/portrait/item/#{raw_info['url']}",
           }
         }
       end
@@ -34,8 +31,8 @@ module OmniAuth
       def raw_info
         access_token.options[:mode] = :query
         access_token.options[:param_name] = 'access_token'
-        @uid ||= access_token.get('/2/account/get_uid.json').parsed["uid"]
-        @raw_info ||= access_token.get("/2/users/show.json", :params => {:uid => @uid}).parsed
+        @uid ||= access_token.get('/rest/2.0/passport/users/getLoggedInUser').parsed["uid"]
+        @raw_info ||= access_token.get("/rest/2.0/passport/users/getInfo", :params => {:uid => @uid}).parsed
       end
 
       ##
@@ -43,7 +40,7 @@ module OmniAuth
       # you need to set them dynamically. You can also set these options
       # in the OmniAuth config :authorize_params option.
       #
-      # /auth/weibo?display=mobile&with_offical_account=1
+      # /auth/baidu?display=mobile&with_offical_account=1
       #
       def authorize_params
         super.tap do |params|
@@ -57,9 +54,9 @@ module OmniAuth
           end
         end
       end
-      
+
     end
   end
 end
 
-OmniAuth.config.add_camelization "weibo", "Weibo"
+OmniAuth.config.add_camelization "baidu", "Baidu"
